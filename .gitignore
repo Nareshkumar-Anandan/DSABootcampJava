@@ -1,11 +1,22 @@
 # IntelliJ IDEA
 .idea/
 *.iml
+*.iws
+*.ipr
 
 # Build output
 out/
 target/
 build/
+bin/
+
+# Compiled files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
 
 # OS files
 .DS_Store
@@ -13,3 +24,7 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Misc
+hs_err_pid*
+*.tmp
